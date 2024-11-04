@@ -1,0 +1,115 @@
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: white;
+    font-family: 'Roboto';
+}
+
+.contactus_body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+  
+}
+input[type=text], input[type=email],textarea {
+    width: 100%;
+    padding: 12px 0;
+    border: none;
+    outline: none;
+    font-weight: bold;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: none;
+    background-color: #0F2C59;
+    border-bottom: 1px solid white;
+}
+
+input[type=type]:focus, input[type=text]:active
+{
+    background: transparent;
+}
+
+.container {
+    width: min(1000px, 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+    box-shadow:
+    0.7px 0.5px 2.2px rgba(0,0,0,0.002),
+    1.8px 1.3px 5.3px rgba(0,0,0,0.028),
+    3.4px 2.4px 10px rgba(0,0,0,0.035),
+    6px 4.2px 17.9px rgba(0,0,0,0.042),
+    11.3px 7.9px 33.4px rgba(0,0,0,0.05),
+    27px 19px 80px rgba(0,0,0,0.07);
+}
+
+.forms{
+    background-color: #0F2C59;
+    padding: 3%;
+    width: 50%;
+    height: 100%;
+}
+
+.info {
+    width: 50%;
+    height: 100%;
+    background-color: pink;
+    padding: 4%;
+}
+
+.contactus_info .contactus_body{
+    height: 70%;
+    width: 100%;
+}
+
+.contactus_info img{
+    width: 30px;
+    height: 30px;
+}
+
+button{
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: transparent;
+    color: white;
+    font-size: 16px;
+    border: 1px solid white;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3 ease;
+/* need to test transition */
+}
+
+button:hover{
+    background-color: black;
+    color: white;
+}
+ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+ul li{
+    margin: 4% 0;
+}
+
+.contactus_list{
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+}
+
+.contactus_list img{
+    margin-right: 10%;
+    background-color: transparent;
+    padding: 1%;
+    border-radius: 100%;
+    border: 1px solid black;
+}
+

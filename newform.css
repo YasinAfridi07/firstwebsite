@@ -1,0 +1,100 @@
+/* Container styling */
+.contactus_container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+    gap: 2rem;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Left side (contact info) styling */
+.contactus_info {
+    flex: 1;
+    background-color: #f5deb3; /* Beige color */
+    padding: 2rem;
+    border-radius: 8px;
+}
+
+.contactus_header h1 {
+    font-size: 1.8rem;
+    color: #333;
+    margin-bottom: 1rem;
+}
+
+.contactus_body ul {
+    list-style: none;
+    padding: 0;
+}
+
+.contactus_list {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.contactus_list img {
+    width: 24px;
+    height: 24px;
+    margin-right: 1rem;
+}
+
+.contactus_text {
+    color: #333;
+    font-size: 1rem;
+}
+
+/* Right side (form) styling */
+.forms {
+    flex: 1;
+    background-color: #0f3057; /* Navy blue */
+    padding: 2rem;
+    border-radius: 8px;
+}
+
+.forms h2 {
+    color: #fff;
+    font-size: 1.8rem;
+    margin-bottom: 1.5rem;
+}
+
+.forms form input,
+.forms form textarea {
+    width: 100%;
+    padding: 0.75rem;
+    margin-bottom: 1rem;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    background-color: transparent;
+    color: #fff;
+    font-size: 1rem;
+    outline: none;
+}
+
+.forms form input::placeholder,
+.forms form textarea::placeholder {
+    color: #aaa;
+}
+
+.forms button {
+    background-color: #fff;
+    color: #0f3057;
+    border: none;
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.forms button:hover {
+    background-color: #ddd;
+}
+
+/* Responsive styling */
+@media (max-width: 768px) {
+    .contactus_container {
+        flex-direction: column;
+    }
+}
